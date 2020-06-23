@@ -1,0 +1,15 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+  margin: 50px auto;
+
+  .redirect-div {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    margin-left: 15px;
+  }
+}
