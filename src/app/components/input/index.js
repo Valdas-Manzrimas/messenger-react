@@ -1,12 +1,12 @@
 import React from 'react';
 import './index.scss';
 
-function Input({ type, name, children, htmlFor }) {
+function Input({ type, name, children, htmlFor, onChange }) {
   return (
-    <React.Fragment className="Input">
-      <label for={htmlFor}> {children} </label>
-      <input type={type} name={name} />
-    </React.Fragment>
+    <div className="Input">
+      <label htmlFor={htmlFor}> {children} </label>
+      <input type={type} name={name} onChange={onChange} />
+    </div>
   );
 }
 

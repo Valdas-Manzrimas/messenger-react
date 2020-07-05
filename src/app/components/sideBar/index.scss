@@ -1,0 +1,57 @@
+.Sidebar {
+  padding: 70px 10px 0 10px;
+  width: 250px;
+  background-color: #85aee4;
+  min-height: 100vh;
+
+  .sideHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: ghostwhite;
+
+    span {
+      font-size: 18px;
+      color: black;
+    }
+
+    img {
+      cursor: pointer;
+      filter: invert(100%) sepia(1%) saturate(2878%) hue-rotate(346deg)
+        brightness(104%) contrast(97%);
+
+      &:hover {
+        filter: invert(85%) sepia(1%) saturate(2878%) hue-rotate(346deg)
+          brightness(104%) contrast(97%);
+      }
+    }
+  }
+
+  .sideBar-Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(170, 240, 137);
+
+    span {
+      font-size: 18px;
+    }
+
+    .add-item {
+      cursor: pointer;
+    }
+  }
+
+  .isHidden {
+    display: none;
+  }
+
+  .allChannels,
+  .allUsers {
+    display: block;
+    padding: 20px 0;
+  }
+}

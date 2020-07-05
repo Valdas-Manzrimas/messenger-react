@@ -7,7 +7,7 @@ function Button({ children, onClick, ...props }) {
   const Tag = props.to ? Link : props.href ? 'a' : 'button';
 
   return (
-    <Tag className={Button} onClick={onClick}>
+    <Tag className="Button" onClick={onClick}>
       {' '}
       {children}{' '}
     </Tag>
